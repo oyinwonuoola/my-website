@@ -3,437 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Ibrahim Mubarak | AI Automation Architect</title>
+    <meta name="description" content="AI Automation Specialist helping businesses save 95% time with intelligent workflows.">
     
-    <!-- SEO Meta Tags -->
-    <title>Ibrahim Mubarak - AI Automation & No-Code Specialist | Portfolio</title>
-    <meta name="description" content="AI Automation Specialist helping businesses save 95% time with intelligent workflows. HubSpot Certified | Make.com Expert | 50+ Projects Delivered.">
-    <meta name="keywords" content="AI automation, no-code, HubSpot, Make.com, workflow automation, CRM specialist">
-    <meta name="author" content="Ibrahim Mubarak">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Ibrahim Mubarak - AI Automation Specialist">
-    <meta property="og:description" content="Turning manual chaos into intelligent systems. 50+ automation projects | 95% time saved | 3x conversion boost.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="Profile.jpg">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
     <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Background Elements -->
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <a href="#home" class="logo">M<span>UBARAK</span></a>
-            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="container nav-container">
+            <a href="#home" class="logo">MUBARAK<span class="dot">.</span>AI</a>
+            
+            <div class="nav-toggle" id="navToggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
+
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#projects" class="nav-link">Work</a></li>
                 <li><a href="#process" class="nav-link">Process</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li class="theme-toggle">
-                    <button id="themeToggle" aria-label="Toggle dark mode">
-                        <i class="fas fa-moon"></i>
-                    </button>
-                </li>
+                <li><a href="#contact" class="nav-link btn-glow">Let's Talk</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="section home-section">
-        <div class="container">
-            <div class="home-content">
-                <div class="home-text">
-                    <h5 class="subtitle">AI Automation Specialist</h5>
-                    <h1 class="main-title">Building <span class="highlight">smart systems</span> that think, act, and scale your business.</h1>
-                    <p class="description">I transform chaotic manual work into intelligent automation—cutting response times by 95%, boosting conversions by 3x, and giving you back 20+ hours per week.</p>
-                    <div class="cta-buttons">
-                        <a href="#projects" class="btn btn-primary">View Success Stories</a>
-                        <a href="#contact" class="btn btn-secondary">Let's Talk Automation</a>
-                    </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge-pill">
+                    <span class="pulse"></span> Available for new projects
                 </div>
-                <div class="home-visual">
-                    <div class="visual-container">
-                        <div class="automation-visual">
-                            <div class="node node-1">
-                                <i class="fas fa-robot"></i>
-                                <p>AI Agents</p>
-                            </div>
-                            <div class="connector"></div>
-                            <div class="node node-2">
-                                <i class="fas fa-cogs"></i>
-                                <p>Automation</p>
-                            </div>
-                            <div class="connector"></div>
-                            <div class="node node-3">
-                                <i class="fas fa-chart-line"></i>
-                                <p>Results</p>
-                            </div>
-                        </div>
-                    </div>
+                <h1 class="glitch-text">
+                    Automating the <br>
+                    <span class="gradient-text">Impossible.</span>
+                </h1>
+                <p class="hero-sub">
+                    I build intelligent AI agents and HubSpot workflows that replace chaos with code. 
+                    <span class="highlight-white">Save 20+ hours/week</span> and scale without the headcount.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Case Studies</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Book Strategy Call</span>
+                    </a>
                 </div>
             </div>
-            <div class="scroll-indicator">
-                <span>Scroll Down</span>
-                <div class="mouse">
-                    <div class="wheel"></div>
+            
+            <!-- Hero Visual (Abstract Code/AI Representation) -->
+            <div class="hero-visual">
+                <div class="floating-card glass-card card-1">
+                    <i class="fas fa-bolt"></i>
+                    <div>
+                        <span>Speed</span>
+                        <strong>+300%</strong>
+                    </div>
                 </div>
+                <div class="floating-card glass-card card-2">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <span>Time Saved</span>
+                        <strong>95%</strong>
+                    </div>
+                </div>
+                <div class="hero-glow"></div>
+            </div>
+        </div>
+        
+        <div class="scroll-downs">
+            <div class="mousey">
+                <div class="scroller"></div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
+    <!-- Tech Stack Marquee (Replaces Tools Grid) -->
+    <div class="marquee-section">
+        <div class="marquee-content">
+            <!-- Content duplicated for seamless loop via JS/CSS -->
+            <span><i class="fab fa-hubspot"></i> HubSpot</span>
+            <span><i class="fas fa-bolt"></i> Zapier</span>
+            <span><i class="fas fa-brain"></i> OpenAI</span>
+            <span><i class="fas fa-code-branch"></i> n8n</span>
+            <span><i class="fas fa-puzzle-piece"></i> Make</span>
+            <span><i class="fab fa-robot"></i> MindStudio</span>
+            <span><i class="fas fa-table"></i> Airtable</span>
+            <!-- Duplicate for loop -->
+            <span><i class="fab fa-hubspot"></i> HubSpot</span>
+            <span><i class="fas fa-bolt"></i> Zapier</span>
+            <span><i class="fas fa-brain"></i> OpenAI</span>
+            <span><i class="fas fa-code-branch"></i> n8n</span>
+            <span><i class="fas fa-puzzle-piece"></i> Make</span>
+             <span><i class="fab fa-robot"></i> MindStudio</span>
+            <span><i class="fas fa-table"></i> Airtable</span>
+        </div>
+    </div>
+
+    <!-- About Section (Bento Grid Layout) -->
+    <section id="about" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">The automation architect who turns "that's impossible" into "that's done."</p>
-            </div>
-            <div class="about-content">
-                <!-- Profile Picture Column -->
-                <div class="profile-picture-container">
-                    <div class="profile-picture">
-                        <img src="Profile.jpg" alt="Ibrahim Mubarak - AI Automation Specialist" loading="lazy">
-                    </div>
-                    <div class="profile-quick-info">
-                        <h4>Ibrahim Mubarak</h4>
-                        <p class="title">Automation Architect</p>
-                        <div class="quick-stats">
-                            <div class="stat">
-                                <span class="number">50+</span>
-                                <span class="label">Projects</span>
-                            </div>
-                            <div class="stat">
-                                <span class="number">95%</span>
-                                <span class="label">Time Saved</span>
-                            </div>
-                            <div class="stat">
-                                <span class="number">3x</span>
-                                <span class="label">ROI Boost</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- About Text Column -->
-                <div class="about-text">
-                    <div class="about-intro">
-                        <p class="intro-quote">
-                            "I'm the kind of person who sees a spreadsheet and thinks, 'What if this just… handled itself?'"
-                        </p>
-                        <p>
-                            That curiosity led me down the rabbit hole of no-code automation, AI agents, and CRM magic—turning clunky processes into elegant, self-running systems.
-                        </p>
-                        <p>
-                            Whether it's <strong>HubSpot workflows that qualify leads in seconds</strong>, AI assistants that handle 60% of customer support, or Make.com engines that process 500 certificates in 5 minutes—I build with one goal: <strong>to give you back your time.</strong>
-                        </p>
-                    </div>
-                    
-                    <div class="about-details">
-                        <p>
-                            I've helped businesses automate lead scoring (80% faster response), customer journeys (3x conversion), and data operations—cutting manual work by thousands of hours annually. I don't just connect tools; <strong>I solve business problems with no-code precision.</strong>
-                        </p>
-                        
-                        <div class="experience-grid">
-                            <div class="experience-item">
-                                <i class="fas fa-project-diagram"></i>
-                                <div>
-                                    <h4>Deep Experience</h4>
-                                    <p>50+ automation projects | HubSpot Certified | AI Workflow Design | Multi-platform Integration</p>
-                                </div>
-                            </div>
-                            
-                            <div class="experience-item">
-                                <i class="fas fa-chart-line"></i>
-                                <div>
-                                    <h4>Proven Results</h4>
-                                    <p>95% faster response times | 3x conversion rates | ₦850M revenue pipeline created | Zero manual errors</p>
-                                </div>
-                            </div>
-                            
-                            <div class="experience-item">
-                                <i class="fas fa-cogs"></i>
-                                <div>
-                                    <h4>Core Expertise</h4>
-                                    <p>Marketing automation | CRM optimization | AI integration | Process design | No-code development</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h2>The <span class="gradient-text">Architect</span></h2>
             </div>
             
-            <!-- Stats Section -->
-            <div class="about-stats">
-                <div class="stat-card">
+            <div class="bento-grid">
+                <!-- Main Profile -->
+                <div class="bento-item profile-card glass-panel">
+                    <div class="profile-img-wrapper">
+                        <img src="Profile.jpg" alt="Ibrahim Mubarak" class="profile-img">
+                    </div>
+                    <div class="profile-content">
+                        <h3>Ibrahim Mubarak</h3>
+                        <p>No-Code Operations Specialist</p>
+                        <p class="profile-bio">I don't just connect apps; I design self-driving businesses. My obsession is turning "that takes forever" into "it's already done."</p>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="bento-item stat-box glass-panel">
                     <h3>50+</h3>
-                    <p>Automation Projects Delivered</p>
+                    <p>Projects Shipped</p>
                 </div>
-                <div class="stat-card">
-                    <h3>95%</h3>
-                    <p>Average Time Reduction</p>
+                <div class="bento-item stat-box glass-panel">
+                    <h3>₦850M</h3>
+                    <p>Pipeline Generated</p>
                 </div>
-                <div class="stat-card">
-                    <h3>3x</h3>
-                    <p>Typical Conversion Boost</p>
+                <div class="bento-item stat-box glass-panel">
+                    <h3>0</h3>
+                    <p>Manual Errors</p>
                 </div>
-                <div class="stat-card">
-                    <h3>100%</h3>
-                    <p>Client Satisfaction Rate</p>
+
+                <!-- Philosophy -->
+                <div class="bento-item philosophy glass-panel">
+                    <i class="fas fa-quote-left"></i>
+                    <p>If you do it more than three times a week, automate it.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section projects-section">
+    <section id="projects" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Success Stories</h2>
-                <p class="section-subtitle">Real systems, real results—automations that actually work</p>
+                <h2>Selected <span class="gradient-text">Works</span></h2>
+                <p>Systems that generate revenue while you sleep.</p>
             </div>
+
             <div class="projects-grid">
-                <!-- Project 1: Lead Qualification -->
-                <div class="project-card" data-project="lead-qualification">
-                    <div class="project-header">
-                        <h3>Real Estate Lead Intelligence System</h3>
-                        <div class="project-tags">
-                            <span class="tag">HubSpot</span>
-                            <span class="tag">Zapier</span>
-                            <span class="tag">WhatsApp API</span>
+                <!-- Project 1 -->
+                <div class="project-card glass-panel" data-project="lead-qualification">
+                    <div class="card-glow"></div>
+                    <div class="project-content">
+                        <div class="project-icon"><i class="fas fa-home"></i></div>
+                        <h3>Real Estate AI Engine</h3>
+                        <p>Automated scoring & routing that generated ₦850M in pipeline.</p>
+                        <div class="tags">
+                            <span>HubSpot</span>
+                            <span>WhatsApp API</span>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <p><strong>Challenge:</strong> Agents wasting 4+ hours daily manually qualifying leads</p>
-                        <p><strong>Result:</strong> 80% faster response | ₦850M pipeline created | 95% lead accuracy</p>
-                    </div>
-                    <div class="project-footer">
-                        <a href="#" class="project-link view-details" data-project="lead-qualification">
-                            <i class="fas fa-external-link-alt"></i> View Full Case Study
-                        </a>
+                        <button class="view-btn">View Case Study <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
 
-                <!-- Project 2: Certificate System -->
-                <div class="project-card" data-project="certificate-system">
-                    <div class="project-header">
-                        <h3>Automated Certificate Generation System</h3>
-                        <div class="project-tags">
-                            <span class="tag">Make.com</span>
-                            <span class="tag">Google Sheets</span>
-                            <span class="tag">Gmail API</span>
+                <!-- Project 2 -->
+                <div class="project-card glass-panel" data-project="certificate-system">
+                    <div class="card-glow"></div>
+                    <div class="project-content">
+                        <div class="project-icon"><i class="fas fa-certificate"></i></div>
+                        <h3>Auto-Certificate System</h3>
+                        <p>Processing 500+ certificates in minutes instead of hours.</p>
+                        <div class="tags">
+                            <span>Make.com</span>
+                            <span>Google API</span>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <p><strong>Challenge:</strong> 4 hours to manually create/send certificates per batch</p>
-                        <p><strong>Result:</strong> 98% time saved | 500 certificates/hour | 100% accuracy</p>
-                    </div>
-                    <div class="project-footer">
-                        <a href="#" class="project-link view-details" data-project="certificate-system">
-                            <i class="fas fa-external-link-alt"></i> View Full Case Study
-                        </a>
+                        <button class="view-btn">View Case Study <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
 
-                <!-- Project 3: Email Support -->
-                <div class="project-card" data-project="email-support">
-                    <div class="project-header">
-                        <h3>AI Email Support Agent</h3>
-                        <div class="project-tags">
-                            <span class="tag">MindStudio</span>
-                            <span class="tag">OpenAI</span>
-                            <span class="tag">Gmail</span>
+                <!-- Project 3 -->
+                <div class="project-card glass-panel" data-project="email-support">
+                    <div class="card-glow"></div>
+                    <div class="project-content">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <h3>AI Support Agent</h3>
+                        <p>Handling 60% of customer support tickets autonomously.</p>
+                        <div class="tags">
+                            <span>MindStudio</span>
+                            <span>OpenAI</span>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <p><strong>Challenge:</strong> E-commerce overwhelmed with repetitive support emails</p>
-                        <p><strong>Result:</strong> 60% requests automated | 2-min response time | 92% accuracy</p>
-                    </div>
-                    <div class="project-footer">
-                        <a href="#" class="project-link view-details" data-project="email-support">
-                            <i class="fas fa-external-link-alt"></i> View Full Case Study
-                        </a>
+                        <button class="view-btn">View Case Study <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
 
-                <!-- Project 4: Social Media -->
-                <div class="project-card" data-project="social-media">
-                    <div class="project-header">
-                        <h3>Social Media Content Generator</h3>
-                        <div class="project-tags">
-                            <span class="tag">ChatGPT</span>
-                            <span class="tag">MindStudio</span>
-                            <span class="tag">Airtable</span>
+                <!-- Project 4 -->
+                <div class="project-card glass-panel" data-project="social-media">
+                    <div class="card-glow"></div>
+                    <div class="project-content">
+                        <div class="project-icon"><i class="fas fa-hashtag"></i></div>
+                        <h3>Social Content Engine</h3>
+                        <p>End-to-end content creation, scheduling, and publishing.</p>
+                        <div class="tags">
+                            <span>ChatGPT</span>
+                            <span>Airtable</span>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <p><strong>Challenge:</strong> Hours spent creating and scheduling social content</p>
-                        <p><strong>Result:</strong> 70% time reduction | 50+ posts/month | 3x engagement</p>
-                    </div>
-                    <div class="project-footer">
-                        <a href="#" class="project-link view-details" data-project="social-media">
-                            <i class="fas fa-external-link-alt"></i> View Full Case Study
-                        </a>
+                        <button class="view-btn">View Case Study <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
-
-                <!-- Project 5: Email Labeling -->
-                <div class="project-card" data-project="email-labeling">
-                    <div class="project-header">
-                        <h3>AI Message Labeling Assistant</h3>
-                        <div class="project-tags">
-                            <span class="tag">n8n</span>
-                            <span class="tag">AI Model</span>
-                            <span class="tag">Webhooks</span>
+                 <!-- Project 5 -->
+                 <div class="project-card glass-panel" data-project="email-labeling">
+                    <div class="card-glow"></div>
+                    <div class="project-content">
+                        <div class="project-icon"><i class="fas fa-envelope-open-text"></i></div>
+                        <h3>AI Message Labeling</h3>
+                        <p>Intelligent routing for high-volume inboxes.</p>
+                        <div class="tags">
+                            <span>n8n</span>
+                            <span>Webhooks</span>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <p><strong>Challenge:</strong> Manual sorting of hundreds of daily messages</p>
-                        <p><strong>Result:</strong> 100% automation | 95% accuracy | Instant processing</p>
-                    </div>
-                    <div class="project-footer">
-                        <a href="#" class="project-link view-details" data-project="email-labeling">
-                            <i class="fas fa-external-link-alt"></i> View Full Case Study
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tools Section -->
-    <section id="tools" class="section tools-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">My Tech Stack</h2>
-                <p class="section-subtitle">The powerful no-code tools I use to build intelligent systems</p>
-            </div>
-            <div class="tools-container">
-                <div class="tool-category">
-                    <h3>Automation Platforms</h3>
-                    <div class="tools-grid">
-                        <div class="tool-item">
-                            <i class="fab fa-slack"></i>
-                            <h4>Zapier</h4>
-                            <p>Connects 5,000+ apps for task automation and workflow integration</p>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-puzzle-piece"></i>
-                            <h4>Make (Integromat)</h4>
-                            <p>Visual automation builder for complex data flows and API connections</p>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-code-branch"></i>
-                            <h4>n8n</h4>
-                            <p>Self-hosted workflow automation + AI agent builder with unlimited possibilities</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tool-category">
-                    <h3>AI & Intelligence</h3>
-                    <div class="tools-grid">
-                        <div class="tool-item">
-                            <i class="fas fa-robot"></i>
-                            <h4>MindStudio</h4>
-                            <p>Build reasoning-based chatbots and intelligent agents without code</p>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-brain"></i>
-                            <h4>OpenAI GPT</h4>
-                            <p>Advanced AI models for natural language processing and content generation</p>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-cube"></i>
-                            <h4>HubSpot</h4>
-                            <p>Enterprise-grade CRM & marketing automation platform</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tool-category">
-                    <h3>Productivity & Data</h3>
-                    <div class="tools-grid">
-                        <div class="tool-item">
-                            <i class="fab fa-google"></i>
-                            <h4>Google Workspace</h4>
-                            <p>Sheets, Docs, Drive for data handling and automation triggers</p>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-table"></i>
-                            <h4>Airtable</h4>
-                            <p>Flexible database with automation and API capabilities</p>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-book"></i>
-                            <h4>Notion</h4>
-                            <p>All-in-one workspace for documentation and project management</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section id="process" class="section process-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">My Process</h2>
-                <p class="section-subtitle">How I turn your manual chaos into automated clarity</p>
-            </div>
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Understand Your Workflow</h3>
-                        <p>Deep dive into your business goals, pain points, and existing tools to identify high-impact automation opportunities.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Map Automation Opportunities</h3>
-                        <p>Spot repetitive or manual processes ripe for automation. Calculate potential ROI and prioritize quick wins.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Design the Logic</h3>
-                        <p>Choose the right tools (Zapier, Make, MindStudio) based on complexity. Design workflows that are scalable and maintainable.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Build, Test, Refine</h3>
-                        <p>Run prototypes with real data, gather feedback, and fine-tune until performance is optimal and error-free.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">5</div>
-                    <div class="step-content">
-                        <h3>Measure & Scale</h3>
-                        <p>Track efficiency gains with analytics. Document processes and roll out successful automations across other departments.</p>
+                        <button class="view-btn">View Case Study <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -441,154 +255,65 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Let's Build Something Amazing</h2>
-                <p class="section-subtitle">Ready to automate your business? Let's talk.</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p><a href="mailto:Oyinwonuoola@gmail.com">Oyinwonuoola@gmail.com</a></p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Remote / Global (UTC+1)</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-calendar-alt"></i>
-                        <div>
-                            <h4>Availability</h4>
-                            <p>Available for new projects</p>
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <p class="quote">"Our customer response time dropped from hours to minutes, giving us time to focus on scaling—thanks to Mubarak's AI setup."</p>
-                        <p class="author">— E-commerce Client, 2025</p>
-                    </div>
+    <section id="contact" class="section">
+        <div class="container small-container">
+            <div class="contact-box glass-panel">
+                <div class="section-header">
+                    <h2>Start the <span class="gradient-text">Transformation</span></h2>
+                    <p>Stop drowning in busy work. Let's build your automated future.</p>
                 </div>
-                <div class="contact-form">
-                    <form action="https://formsubmit.co/Oyinwonuoola@gmail.com" method="POST" id="contactForm">
-                        <!-- FormSubmit Configuration -->
-                        <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="box">
-                        <input type="text" name="_honey" style="display:none">
-                        
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your automation needs..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i> Send Message
-                        </button>
-                    </form>
+                
+                <form action="https://formsubmit.co/Oyinwonuoola@gmail.com" method="POST" class="contact-form">
+                    <input type="hidden" name="_subject" value="New Portfolio Lead">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div class="input-group">
+                        <input type="text" name="name" required placeholder=" ">
+                        <label>Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" required placeholder=" ">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" rows="4" required placeholder=" "></textarea>
+                        <label>How can I help you?</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ibrahim-mubarak-333363290" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/oyinwonuola_" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/oyinwonuoola" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:Oyinwonuoola@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#home">M<span>UBARAK</span></a>
-                    <p>Automation Architect | AI Specialist</p>
-                    <div class="footer-contact-info">
-                        <p><i class="fas fa-envelope"></i> Oyinwonuoola@gmail.com</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Remote / Global</p>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#tools">Tools</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-social">
-                    <h4>Connect With Me</h4>
-                    <div class="social-icons">
-                        <a href="https://linkedin.com/in/ibrahim-mubarak-333363290" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://wa.link/hhzh38" target="_blank" rel="noopener noreferrer" title="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://x.com/oyinwonuola_" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://github.com/oyinwonuoola" target="_blank" rel="noopener noreferrer" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; <span id="currentYear"></span> Ibrahim Mubarak. All rights reserved.</p>
-                <div class="footer-automation-badges">
-                    <span class="badge">AI Automation Expert</span>
-                    <span class="badge">No-Code Specialist</span>
-                    <span class="badge">HubSpot Certified</span>
-                </div>
-            </div>
+            <p>&copy; <span id="year"></span> Ibrahim Mubarak. Engineered for efficiency.</p>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top" aria-label="Back to top">
-        <i class="fas fa-chevron-up"></i>
-    </button>
-
-    <!-- Project Modal -->
-    <div id="projectModal" class="project-modal">
-        <div class="modal-overlay" id="modalOverlay"></div>
-        <div class="modal-container">
-            <button class="modal-close" id="modalClose" aria-label="Close modal">
-                <i class="fas fa-times"></i>
-            </button>
-            <div class="modal-content"></div>
-            <div class="modal-navigation">
-                <button class="nav-btn prev-btn" id="prevProject">
-                    <i class="fas fa-chevron-left"></i> Previous
-                </button>
-                <div class="project-counter">
-                    <span id="currentProject">1</span> of <span id="totalProjects">5</span>
-                </div>
-                <button class="nav-btn next-btn" id="nextProject">
-                    Next <i class="fas fa-chevron-right"></i>
-                </button>
+    <!-- Mind-Blowing Lightbox -->
+    <div id="projectModal" class="modal">
+        <button class="modal-close-btn" id="modalClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-backdrop"></div>
+        <div class="modal-scroll-container">
+            <div class="modal-content-wrapper">
+                <!-- Content injected via JS -->
             </div>
         </div>
     </div>
 
-    <!-- Loading Spinner -->
-    <div id="loadingSpinner" class="loading-spinner">
-        <div class="spinner"></div>
-        <p>Loading project details...</p>
-    </div>
-
-    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
